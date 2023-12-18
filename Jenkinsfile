@@ -29,7 +29,7 @@ pipeline{
         // stage("quality gate"){
         //    steps {
         //         script {
-        //             waitForQualityGate abortPipeline: false, credentialsId: 'Sonar-token' # do not run#
+        //             waitForQualityGate abortPipeline: false, credentialsId: 'Sonar-token' 
         //         }
         //     } 
         // }
